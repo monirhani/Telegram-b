@@ -5,7 +5,7 @@ import string
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReactionTypeEmoji
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters
 from telegram.constants import ParseMode
 
