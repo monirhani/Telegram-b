@@ -10,7 +10,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 from telegram.constants import ParseMode
 
 # تنظیمات پایه - این مقادیر از متغیرهای محیطی خوانده می‌شوند
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8238948579:AAGktvxW6LhuKBXRRA_WsfD9n2bsMMC-izg')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8238948579:AAE9ikC_a6oGNpsRgNhjA8GO6F9arTJ_gRM')
 ADMIN_CHAT_ID = int(os.environ.get('ADMIN_CHAT_ID', 7798986445))
 
 # تنظیمات پیش‌فرض
